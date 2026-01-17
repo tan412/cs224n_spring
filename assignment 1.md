@@ -1,6 +1,7 @@
 Assignment 1
 
 踩坑1：运行第一个import相关单元格报错
+
 “
 ---------------------------------------------------------------------------
 TypeError Traceback (most recent call last)Cell In[1], line 20 17 plt.rcParams['figure.figsize'] = [10, 5] 19 from datasets import load_dataset---> 20 imdb_dataset = load_dataset("stanfordnlp/imdb") 22 import re 23 import numpy as np
@@ -19,4 +20,5 @@ conda activate cs224n
 conda env update -f env.yml --prune
 3.更新完成后，验证一下版本：
 python --version
+
 4.重启内核，大功告成！
