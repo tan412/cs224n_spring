@@ -2,8 +2,8 @@ Assignment 1
 
 踩坑1：运行第一个import相关单元格报错
 
+
 “
----------------------------------------------------------------------------
 TypeError Traceback (most recent call last)Cell In[1], line 20 17 plt.rcParams['figure.figsize'] = [10, 5] 19 from datasets import load_dataset---> 20 imdb_dataset = load_dataset("stanfordnlp/imdb") 22 import re 23 import numpy as np
 ...
 1061 self.write(MARK + DICT) 1063 self.memoize(obj)-> 1064 self._batch_setitems(obj.items(), obj)
@@ -22,3 +22,4 @@ conda env update -f env.yml --prune
 python --version
 
 4.重启内核，大功告成！
+
